@@ -1,19 +1,16 @@
 # Mis ejercicios de Adalab
 
-## Soy un subtítulo
+### Voy a ir subiendo los distintos ejercicios agrupados por módulos:
 
-### Soy un subtítulo más pequeño
+- Módulo 1
+- Módulo 2
+- Módulo 3
+- Módulo 4
 
-- Elemento 1
-- Elemento 2
-- Elemento 3
-
-lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
-
-lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem **ipsumlorem** ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
+Dentro de cada módulo, habrá distintas **carpetas** donde estarán los ejercicios.
 
 ```html
-<h1>Hola mundo</h1>
+<h1>Comienza mi aventura en el mundo de la programación web</h1>
 ```
 
 - [Demo Markdown] (https://markdown-it.github.io/)
