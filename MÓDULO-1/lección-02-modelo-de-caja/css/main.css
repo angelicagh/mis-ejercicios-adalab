@@ -43,40 +43,57 @@ section {
 */
 
 .titulo {
-  margin: 50px;
-  margin-left: 500px;
+  /*margin: 50px;
+  margin-left: 500px;*/
 }
 
 .section {
-  /*margin: 50px;*/
+  /*margin: 50px;
   margin-top: 50px;
   margin-bottom: 40px;
   margin-left: 50px;
   margin-right: 30px;
-  /*margin: 50px 30px 40px 50px;*/
-  border: 5px solid black;
+  margin: 50px 30px 40px 50px;
+  border: 5px solid black;*/
 }
 
 .caja3 {
+  /*
   padding: 50px;
-  border: 5px solid black;
+  border: 5px solid black;*/
 }
 
 .caja1 {
+  /*
   margin: 20px;
   padding: 50px;
   border: 5px solid pink;
   width: 400px;
-  float: left;
+  float: left;*/
 }
+
 .caja2 {
+  /*
   margin: 20px;
   padding: 50px;
   border: 5px solid pink;
   width: 400px;
-  float: right;
+  float: right;*/
 }
 
 * {
-  box-sizing: border-box;
+  /*
+  box-sizing: border-box;*/
+}
+
+section {
+  display: inline-block;
+}
+
+h2 {
+  display: inline-block;
+}
+
+p {
+  display: inline-block;
 }
