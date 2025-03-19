@@ -1,0 +1,82 @@
+/*todo lo que vaya aquí dentro es un comentario*/
+/*
+:root {
+  --color-principal: aquamarine;
+  --color-secundario: #ee82ee;
+  --color-terciario: #aeff7f;
+  --tipografia: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  --tamaño-texto: 25px;
+}
+
+.caja1 {
+  width: 100%;
+  background-color: var(--color-principal);
+  font-size: var(--tamaño-texto);
+}
+
+.caja2 {
+  width: 100%;
+  background-color: var(--color-secundario);
+}
+
+.caja3 {
+  width: 100%;
+  background-color: var(--color-terciario);
+}
+
+h1 {
+  font-family: var(--tipografia);
+}
+
+p {
+  background-color: orange;
+}
+
+.section {
+  color: whitesmoke;
+  background-color: rgb(243, 90, 179);
+}
+
+section {
+  background-color: rgb(40, 77, 238);
+}
+*/
+
+.titulo {
+  margin: 50px;
+  margin-left: 500px;
+}
+
+.section {
+  /*margin: 50px;*/
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  margin-right: 30px;
+  /*margin: 50px 30px 40px 50px;*/
+  border: 5px solid black;
+}
+
+.caja3 {
+  padding: 50px;
+  border: 5px solid black;
+}
+
+.caja1 {
+  margin: 20px;
+  padding: 50px;
+  border: 5px solid pink;
+  width: 400px;
+  float: left;
+}
+.caja2 {
+  margin: 20px;
+  padding: 50px;
+  border: 5px solid pink;
+  width: 400px;
+  float: right;
+}
+
+* {
+  box-sizing: border-box;
+}
