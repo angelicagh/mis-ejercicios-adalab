@@ -8,26 +8,37 @@
 </head>
 
 <body>
-    <header>
+    <div class="imagen-fondo">
+    <header class="header">
         <img id="logo" src="./img/logo.png" alt="Logo de Netflix">
-        <nav>Idioma menú desplegable</nav>
-        <button id="boton-iniciar-sesion" ><b>Iniciar sesión</b></button>
-       
-       
 
+        <nav>
+            <ul class="nav">
+                <li>
+                    Español
+                </li>
+                <li>
+                    Iniciar sesión
+                </li>
+            </ul>
+        </nav>
+
+        <!--<button id="boton-iniciar-sesion" ><b>Iniciar sesión</b></button>-->
+
+       <!--<img src="./img/fondo.jpg" alt="Imagen de fondo">-->
+
+        
     </header>
 
     <main>
-        <section>
+        <section class="portada">
         <h1>Películas y series sin límites y mucho más</h1>
         <p><b>A partir de 6,99 €. Cancela cuando quieras.</b></p>
         <p>¿Quieres ver algo ya? Escribe tu dirección de correo para crear una suscripción a Netflix o reactivarla.</p>
-        formulario correo electrónico (input y buttom)
-        <button id="boton-empezar" ><b>Empezar</b></button>
-        <!--<img id="imagen-fondo" src="./img/fondo.jpg" alt="Imagen de fondo">-->
-        
-        
+        <!--formulario correo electrónico (input y buttom)-->
+        <button id="boton-empezar" ><b>Empezar</b></button> 
         </section>
+    </div>
 
         <section>
             <h2><b>Todo lo que te encanta de Netflix por solo 6,99 €.</b></h2>
@@ -39,13 +50,16 @@
         <section>
             <h3>Tendencias ahora</h3>
            <!--Realmente es un carrusel de imágenes, pero vamos a hacer una lista de imágenes-->
-           <ol>
-            <li><img src="" alt=""></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-           </ol>
+
+           <!--ul>li*5>img-->
+           <ul class="tendencias">
+            <li><img src="https://occ-0-2956-360.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABWSO08No9JNdcCXuqalegUsEPYRPBK_P3RBtdCKKLafqJzGkliI-25dYVaI5Pxsi5r7dIqsylO70tM8GetrReeP0UBVm3Z1kDi8ehJYoWHE-kbIY2bmVsNowKZdFde8A3J-V.webp?r=2a5" alt="Foto de Estado eléctrico"></li>
+            <li><img src="https://occ-0-2956-360.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcoiE0JQ4pFik9UjwQp9azMvusjr50OdFs_MoM1BEZ-JbRtAuZfKETkWB2NJKhO2cHBfm7d_eQNljyhvnLz2XVSCw9n3PYov4sPnV94AoL4iLJn2QYvsS__3U4NZHCj-sHj4.webp?r=d0a" alt="Foto de El juego del calamar"></li>
+            <li><img src="https://occ-0-2956-360.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABQDQeoeST4QKuzzpGotHJXq4Z7Efe4QHTRr_MOuHrvUqMZD1YoS3-RwGp0g9Xfe8SHwA8jxcoUSA5NdjYFwTvqrNeAm8WPTihspWO14LPSOhLBLoa7mp0iQ-zGOBJQA0cZMq.webp?r=bc2" alt="Foto de Valeria"></li>
+            <li><img src="https://occ-0-2956-360.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABes8pGIG5TYN5Ifc5UUvga4IgX_RDld9oWSNG5lSgDD3oKBWUjtXJOhq5vyQd2KnMMLZM63llVOQnHFCaOkriVgKn-LFdf4VCbjJHb6a_7ypQwyO2Kre3H03sZEBHNy_R-BG.webp?r=f39" alt="Foto de Machos alfa"></li>
+            <li><img src="https://occ-0-2956-360.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABVhmmxVy4tzcnSguyGlO3UO_VPaqsI0WvIUMt0f-hmVjH8SZ13sq9IB_pNwzwTX6v7fL8UjOwpETgQGJBtg0T6ZPt1tUyTrdtb5RIjvxuJAjKKoCKQbXfpnrmRECOyfYVQk_.webp?r=d6e" alt="Foto de Adolescencia"></li>
+           </ul>
+         
         </section>
 
         <section>

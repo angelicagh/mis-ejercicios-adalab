@@ -1,6 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+}
+
 /*header*/
 #logo {
   width: 100px;
+}
+
+ul {
+  list-style: none;
 }
 
 #boton-iniciar-sesion {
@@ -14,10 +34,35 @@
 
 /*main*/
 
-/*section*/
+.imagen-fondo {
+  background-image: url("../img/fondo-degradado.jpg");
+  background-size: cover;
+  height: 450px;
+}
+
+.portada {
+  text-align: center;
+  /*otra forma de hacerlo es con display flex
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;*/
+  margin: 100px;
+  color: #f5f5f7;
+}
+
+.tendencias {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  padding: 0;
+}
+
+/*section
 #imagen-fondo {
   width: 100%;
-}
+}*/
 
 /*section*/
 #boton-empezar {
