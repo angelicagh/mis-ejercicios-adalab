@@ -1,0 +1,42 @@
+div {
+  border: 1px solid black;
+  width: 200px;
+}
+.main {
+  border: 1px solid red;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.item-1 {
+  order: 3;
+}
+
+.item-2 {
+  order: 1;
+}
+
+.item-3 {
+  order: 6;
+}
+
+.item-4 {
+  order: 5;
+}
+
+.item-5 {
+  order: 2;
+}
+
+.item-6 {
+  order: 4;
+}
+
+/*LO DE CAMBIAR EL ORDEN A LOS ITEMS NO ME SALE, ME PONE SIEMPRE EL ELEMENTO AL QUE QUIERO CAMBIAR EL ORDEN AL FINAL*/
+
+/*SOLUCIONADO: HAY QUE DAR ORDEN A TODOS LOS ITEMS*/
