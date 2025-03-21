@@ -1,0 +1,41 @@
+/*header*/
+#logo {
+  width: 100px;
+}
+
+#boton-iniciar-sesion {
+  background-color: #c0111a;
+  color: #ffffff;
+  height: 35px;
+  width: 110px;
+  border-radius: 5px;
+  float: right;
+}
+
+/*main*/
+
+/*section*/
+#imagen-fondo {
+  width: 100%;
+}
+
+/*section*/
+#boton-empezar {
+  background-color: #c0111a;
+  color: #ffffff;
+  height: 55px;
+  width: 140px;
+  border-radius: 5px;
+}
+
+#palomitas {
+  float: left;
+}
+
+#boton-mas-informacion {
+  background-color: #3d3d63;
+  color: #f5f5f7;
+  border-radius: 5px;
+  height: 35px;
+  width: 160px;
+}
