@@ -42,13 +42,10 @@ section {
 }
 */
 
-
-
 .titulo {
   /*margin: 50px;
   margin-left: 500px;*/
 }
-
 
 .section {
   /*margin: 50px;*/
@@ -95,9 +92,8 @@ section {
   margin-right: 30px;
   border: 5px solid pink;
   width: 200px;
-  /*float: inherit;
+  /*float: inherit;*/
 }
-*/
 
 /** {
   box-sizing: border-box;
